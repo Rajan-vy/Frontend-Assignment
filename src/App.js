@@ -7,18 +7,20 @@ import ContactUs from './pages/ContactUs';
 import Products from './pages/Products';
 import ProductDetails from './pages/ProductDetails';
 import Filter from './components/Filter';
+import './App.css'
+import Cart from './pages/Cart';
 
 const App = () => {
   return (
     <Router>
       <Header></Header>
-      <Filter></Filter>
       <Routes>
         <Route exact path='/' element={<Homepage />}></Route>
         <Route exact path='/about' element={<AboutUs />}></Route>
         <Route exact path='/contact' element={<ContactUs />}></Route>
         <Route exact path='/products' element={<Products />}></Route>
         <Route exact path='/products/:id' element={<ProductDetails/>}></Route>
+        <Route exact path='/cart' element={<Cart/>}></Route>
       </Routes>
 
     </Router>
