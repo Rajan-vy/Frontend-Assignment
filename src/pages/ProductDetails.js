@@ -4,24 +4,44 @@ import { getSingleProduct } from '../services/api';
 
 const ProductDetails = () => {
   const { id } = useParams();
-  const [products, setProducts] = useState({});
+  const [product, setProduct] = useState({});
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     getSingleProduct(id)
       .then((data) => {
-        setProducts(data.products);
+        setProduct(data); // Change this to set the entire product object
         setLoading(false);
-        console.log(data);
       })
       .catch((error) => {
-        console.error('Error fetching products:', error);
+        console.error('Error fetching product:', error);
       });
-  }, [id]); // Include 'id' in the dependency array to fetch data when 'id' changes
+  }, [id]);
 
+  // Render loading state while fetching data
+  if (loading) {
+    return <div>Loading...</div>;
+  }
+
+  // Render product details once data is available
   return (
     <div>
-      {!loading && <div>Name: {products.title}</div>}
+      <h1>{product.title}</h1>
+      <p>Description: {product.description}</p>
+      <p>Price: ${product.price}</p>
+      <p>Discount Percentage: {product.discountPercentage}%</p>
+      <p>Rating: {product.rating}</p>
+      <p>Stock: {product.stock}</p>
+      <p>Brand: {product.brand}</p>
+      <p>Category: {product.category}</p>
+      <img src={product.thumbnail} alt={product.title} />
+
+      <h2>Additional Images:</h2>
+      <div>
+        {product.images.map((image, index) => (
+          <img key={index} src={image} alt={`Image ${index + 1}`} />
+        ))}
+      </div>
     </div>
   );
 };

@@ -6,11 +6,13 @@ import AboutUs from './pages/AboutUs';
 import ContactUs from './pages/ContactUs';
 import Products from './pages/Products';
 import ProductDetails from './pages/ProductDetails';
+import Filter from './components/Filter';
 
 const App = () => {
   return (
     <Router>
       <Header></Header>
+      <Filter></Filter>
       <Routes>
         <Route exact path='/' element={<Homepage />}></Route>
         <Route exact path='/about' element={<AboutUs />}></Route>
