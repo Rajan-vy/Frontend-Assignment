@@ -1,12 +1,14 @@
-# Getting Started with Create React App
+# Overview
+I have completed the fronr-End Assignment for an Ecommerce web app.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I have used `HTML`, `Tailwind-CSS` and `React` for stylind and funtionality.
+# Setup Instruction
 
-## Available Scripts
+Clone this repo
+`npm install` - To install the dependencies.
+`npm start` - To start the react app.
 
-In the project directory, you can run:
-
-### `npm start`
+# Functionalities
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
