@@ -4,69 +4,37 @@ I have completed the fronr-End Assignment for an Ecommerce web app.
 I have used `HTML`, `Tailwind-CSS` and `React` for stylind and funtionality.
 # Setup Instruction
 
-Clone this repo
-`npm install` - To install the dependencies.
-`npm start` - To start the react app.
+- Clone this repo
+- `npm install` - To install the dependencies.
+- `npm start` - To start the react app.
 
 # Functionalities
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Responsive Design
+1. User can view any product details
+1. User can add the products to the cart page
+1. User can increase or decrease the number of items from cart page
+1. Checkout form with a demo bill at form submission. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Homepage
+![image](https://github.com/Rajan-vy/Frontend-Assignment/assets/72688890/25cbdfd4-8707-4c32-8ba1-d179e3afdae1)
 
-### `npm test`
+# Products page
+![image](https://github.com/Rajan-vy/Frontend-Assignment/assets/72688890/c384796b-211b-4284-898e-76629c8bdcb5)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Product details
+![image](https://github.com/Rajan-vy/Frontend-Assignment/assets/72688890/48d1866d-d6ac-4ee5-a9da-5afc44aafb00)
 
-### `npm run build`
+# Cart
+![image](https://github.com/Rajan-vy/Frontend-Assignment/assets/72688890/30c5eed0-4a0d-48a3-8f95-5528fdaabe04)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Checkout Page
+![image](https://github.com/Rajan-vy/Frontend-Assignment/assets/72688890/02e5468b-1d9b-468c-a0c4-36aeaed6fb82)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Order Placed
+![image](https://github.com/Rajan-vy/Frontend-Assignment/assets/72688890/390624c8-8583-4791-8547-6d03486181b0)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
