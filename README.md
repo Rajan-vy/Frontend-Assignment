@@ -17,22 +17,23 @@ I have used `HTML`, `Tailwind-CSS` and `React` for stylind and funtionality.
 1. Checkout form with a demo bill at form submission. 
 
 # Homepage
-![image](https://github.com/Rajan-vy/Frontend-Assignment/assets/72688890/25cbdfd4-8707-4c32-8ba1-d179e3afdae1)
+![image](https://github.com/Rajan-vy/Frontend-Assignment/assets/72688890/751f185d-0317-45f7-9590-edfa9c94f659)
 
 # Products page
-![image](https://github.com/Rajan-vy/Frontend-Assignment/assets/72688890/c384796b-211b-4284-898e-76629c8bdcb5)
+![image](https://github.com/Rajan-vy/Frontend-Assignment/assets/72688890/bb31005e-6ef5-4683-b609-d934eacef4e4)
 
 # Product details
-![image](https://github.com/Rajan-vy/Frontend-Assignment/assets/72688890/48d1866d-d6ac-4ee5-a9da-5afc44aafb00)
+![image](https://github.com/Rajan-vy/Frontend-Assignment/assets/72688890/432dc6ee-0a3d-483f-b344-2453a3d70c33)
 
 # Cart
-![image](https://github.com/Rajan-vy/Frontend-Assignment/assets/72688890/30c5eed0-4a0d-48a3-8f95-5528fdaabe04)
+![image](https://github.com/Rajan-vy/Frontend-Assignment/assets/72688890/3a91614f-96a5-41c2-811b-fdf1e7e1396a)
 
 # Checkout Page
-![image](https://github.com/Rajan-vy/Frontend-Assignment/assets/72688890/02e5468b-1d9b-468c-a0c4-36aeaed6fb82)
+![image](https://github.com/Rajan-vy/Frontend-Assignment/assets/72688890/caef920f-3130-4d00-b1f3-c95f1c5a27e6)
 
 # Order Placed
-![image](https://github.com/Rajan-vy/Frontend-Assignment/assets/72688890/390624c8-8583-4791-8547-6d03486181b0)
+![image](https://github.com/Rajan-vy/Frontend-Assignment/assets/72688890/f0769af9-e014-409d-875b-6bff8878d810)
+
 
 
 
