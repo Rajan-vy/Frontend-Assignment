@@ -6,11 +6,11 @@ import AboutUs from './pages/AboutUs';
 import ContactUs from './pages/ContactUs';
 import Products from './pages/Products';
 import ProductDetails from './pages/ProductDetails';
-import Filter from './components/Filter';
 import './App.css'
 import Cart from './pages/Cart';
 import Checkout from './pages/Checkout';
 import PageFooter from './components/Footer';
+import ThankYou from './pages/ThankYou';
 
 const App = () => {
   return (
@@ -24,8 +24,9 @@ const App = () => {
         <Route exact path='/products/:id' element={<ProductDetails/>}></Route>
         <Route exact path='/cart' element={<Cart/>}></Route>
         <Route exact path='/checkout' element={<Checkout/>}></Route>
+        <Route exact path='/thankyou' element={<ThankYou/>}></Route>
       </Routes>
-      <PageFooter></PageFooter>
+      <PageFooter/>
 
     </Router>
   );

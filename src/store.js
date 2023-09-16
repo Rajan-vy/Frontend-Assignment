@@ -3,12 +3,12 @@ import create from 'zustand';
 const useGlobalStore = create((set) => ({
   products: [],
   cart: [],
+  checkoutData: null,
   addToCart: (product) =>
     set((state) => {
       const existingProduct = state.cart.find((item) => item.id === product.id);
 
       if (existingProduct) {
-        // Product already exists in the cart, update its quantity
         return {
           cart: state.cart.map((item) =>
             item.id === product.id
@@ -17,7 +17,6 @@ const useGlobalStore = create((set) => ({
           ),
         };
       } else {
-        // Product does not exist in the cart, add it
         return {
           cart: [...state.cart, { ...product, quantity: 1 }],
         };
@@ -43,6 +42,10 @@ const useGlobalStore = create((set) => ({
           : product
       ),
     })),
+
+    setCheckoutData: (data) => set({ checkoutData: data }),
+    resetCart: (data) => set({ cart: [] }),
+    
 }));
 
 export default useGlobalStore;
