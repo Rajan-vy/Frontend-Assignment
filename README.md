@@ -1,5 +1,5 @@
 # Overview
-I have completed the fronr-End Assignment for an Ecommerce web app.
+I have completed the front-End Assignment for an E-commerce web app.
 
 I have used `HTML`, `Tailwind-CSS` and `React` for stylind and funtionality.
 # Setup Instruction
