@@ -1,5 +1,6 @@
 import React from 'react';
 import useGlobalStore from '../store';
+import { Link } from 'react-router-dom';
 
 const Cart = () => {
   const cart = useGlobalStore((state) => state.cart);
@@ -68,9 +69,11 @@ const Cart = () => {
           <h3 className="text-xl font-semibold">
             Net Total: {netTotal.toFixed(2)}
           </h3>
-          <button className={`text-white font-bold py-2 px-4 rounded mt-6 ${cart.length <= 0 ? "bg-gray-500" : "bg-blue-500 hover:bg-blue-700"}`} disabled={cart.length <=0}>
-            Checkout
-          </button>
+          <Link to="/Checkout">
+            <button className={`text-white font-bold py-2 px-4 rounded mt-6 ${cart.length <= 0 ? "bg-gray-500" : "bg-blue-500 hover:bg-blue-700"}`} disabled={cart.length <=0}>
+              Checkout
+            </button>
+          </Link>
         </div>
       </div>
     </div>

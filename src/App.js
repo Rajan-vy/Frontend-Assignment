@@ -9,6 +9,8 @@ import ProductDetails from './pages/ProductDetails';
 import Filter from './components/Filter';
 import './App.css'
 import Cart from './pages/Cart';
+import Checkout from './pages/Checkout';
+import PageFooter from './components/Footer';
 
 const App = () => {
   return (
@@ -21,7 +23,9 @@ const App = () => {
         <Route exact path='/products' element={<Products />}></Route>
         <Route exact path='/products/:id' element={<ProductDetails/>}></Route>
         <Route exact path='/cart' element={<Cart/>}></Route>
+        <Route exact path='/checkout' element={<Checkout/>}></Route>
       </Routes>
+      <PageFooter></PageFooter>
 
     </Router>
   );
