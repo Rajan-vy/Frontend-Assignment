@@ -18,7 +18,7 @@ I have used `HTML`, `Tailwind-CSS` and `React` for stylind and funtionality.
 
 # Homepage
 ![image](https://github.com/Rajan-vy/Frontend-Assignment/assets/72688890/751f185d-0317-45f7-9590-edfa9c94f659)
-This the landing page/Homepage of the website, containing banner and some random products for display. User can add products to cart directly from here also.
+This is the landing page/Homepage of the website, containing banner and some random products for display. User can add products to cart directly from here also.
 
 # Products page
 ![image](https://github.com/Rajan-vy/Frontend-Assignment/assets/72688890/bb31005e-6ef5-4683-b609-d934eacef4e4)
